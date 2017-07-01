@@ -17,8 +17,20 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="433" column="53" lean-forward="false" selection-start-line="433" selection-start-column="53" selection-end-line="433" selection-end-column="53" />
+            <state relative-caret-position="502">
+              <caret line="432" column="35" lean-forward="true" selection-start-line="432" selection-start-column="35" selection-end-line="432" selection-end-column="35" />
+              <folding>
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05_19_badges.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05_19_badges.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="416" column="46" lean-forward="true" selection-start-line="416" selection-start-column="0" selection-end-line="417" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,6 +67,7 @@
       <find>our story</find>
       <find>St.</find>
       <find>the venue</find>
+      <find>soundcloud</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -553,12 +566,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498920957711</updated>
       <workItem from="1498920959076" duration="13000" />
-      <workItem from="1498920996421" duration="1413000" />
+      <workItem from="1498920996421" duration="1880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1426000" />
+    <option name="totallyTimeSpent" value="1893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -649,11 +662,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/05_19_badges.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="416" column="46" lean-forward="true" selection-start-line="416" selection-start-column="0" selection-end-line="417" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="433" column="53" lean-forward="false" selection-start-line="433" selection-start-column="53" selection-end-line="433" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="502">
+          <caret line="432" column="35" lean-forward="true" selection-start-line="432" selection-start-column="35" selection-end-line="432" selection-end-column="35" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
