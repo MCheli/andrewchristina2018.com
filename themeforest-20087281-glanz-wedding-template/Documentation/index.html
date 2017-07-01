@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documentation</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link href="css/style.css" rel="stylesheet">
+
+<link type="text/css" rel="stylesheet" href="syntaxh/css/shCoreDefault.css">
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+
+
+
+</head>
+
+<body>
+
+<div class="page">
+<div class="container-fluid">
+	<div class="row">
+    	<div class="col-xs-2 left_sidebar">
+            <div class="left_block">
+                <div class="left_menu">
+                    <ul class="list-unstyled text-right">
+                        <li><a href="#start">Start</a></li>
+                        <li><a href="#html">HTML Structure</a></li>
+                        <li><a href="#css">CSS Files & Structure</a></li>
+                        <li><a href="#java">Javascript</a></li>
+                        <li><a href="#typo">Typography</a></li>
+                        <li><a href="#book">Booking Form</a></li>
+                        <li><a href="#sources">Sources & Credits</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-10 main_sidebar">
+        
+        	<section id="start">
+            	<h2>Glanz - Wedding Template</h2>
+                <hr>
+                
+                <p class="well">
+                Created: June 03, 2017<br>
+                Latest Update: June 03, 2017<br>
+                By: starkethemes<br>
+                <a href="https://themeforest.net/user/starkethemes" target="_blank">https://themeforest.net/user/starkethemes</a><br>
+                Email: starkethemes@gmail.com@gmail.com
+				</p>
+                <p>
+Thank you for purchasing this theme. If you have any questions that are beyond the scope of this help file, please feel free to email via the user page contact form on this page. <a href="https://themeforest.net/user/starkethemes" target="_blank">https://themeforest.net/user/starkethemes</a> Thanks so much!
+				</p>
+
+
+            </section>
+            
+
+
+          <section id="html">
+                
+
+
+            	<h2>HTML Structure</h2>
+                <hr>
+                <p>This theme is built upon bootstrap framework and is fully responsive. It adapts to window resolution and looks good on all devices including ipad and iphone.
+    See for yourself (resize your browser).</p>
+            <p class="well">
+    If you would like to read more about bootstrap framework click here :<br>
+                <a href="http://getbootstrap.com/css/"><b>Bootstrap Documentation</b></a>
+                </p>
+                
+                
+                <h3>Body Styles</h3>
+                <pre class="brush: html">
+                &lt;body class="gla_middle_titles body_no_height">
+                </pre>
+                There are some styles in body: <br>
+                gla_middle_titles - Middle Titles - 44px <br>
+                gla_great_titles - Great Titles - 80px <br>
+                body_no_height - Please use this class for pages with passpartu (like 01_04_creative1.html)<br>
+
+                If you want use passpartu, please add this HTML: <br>
+
+                <pre class="brush: html">
+                &lt;!-- passpartu -->
+                &lt;div class="gla_border_top hidden-sm hidden-xs">&lt;/div>
+                &lt;div class="gla_border_bottom hidden-sm hidden-xs">&lt;/div>
+                &lt;div class="gla_border_left hidden-sm hidden-xs">&lt;/div>
+                &lt;div class="gla_border_right hidden-sm hidden-xs">&lt;/div>
+                &lt;!-- passpartu end-->
+                </pre>
+
+                
+
+                
+               
+
+                <h3>Intro (Slider)</h3>
+                Example: <br>
+                <pre class="brush: html">
+&lt;!-- Slider -->
+&lt;div class="gla_slider gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.2" data-image="images/corporate2/shutterstock_327359981.jpg">
+
+
+    &lt;div class="gla_over" data-color="#000" data-opacity="0.5">&lt;/div>
+
+    &lt;div class="container">
+
+        &lt;!-- vertical text -->
+        &lt;div class="gla_slider_copyright" data-0="opacity:1; bottom:100px" data--400-bottom="opacity:0; bottom:150px">© Enhance 2016.&lt;/div>
+
+        &lt;!-- Slider Texts -->
+        &lt;div class="gla_slide_txt gla_slide_center_middle text-center" data-0="opacity:1; margin-top:0px" data--400-bottom="opacity:0; margin-top:-100px">
+            &lt;div class="gla_slide_title">We're All Working &lt;br>Together&lt;/div>
+            &lt;div class="gla_slide_subtitle">That's the Secter&lt;/div>
+        &lt;/div>
+        &lt;!-- Slider Texts End -->
+    
+    &lt;/div>
+    &lt;!-- container end -->
+
+    &lt;!-- Slide Down -->
+    &lt;a class="gla_scroll_down gla_go" href="#gla_content" data-0="opacity:1; bottom:40px;" data--400-bottom="opacity:0; bottom:80px;">
+        &lt;b data-0="height:40px" data--400-bottom="height:55px">&lt;/b>
+        Scroll
+    &lt;/a>
+
+
+&lt;/div>
+&lt;!-- Slider End -->
+                </pre>
+
+           
+                gla_slide_title - Great Title, also can be (gla_slide_title_great, gla_slide_title_middle)<br />
+                gla_slide_subtitle - Great SubTitle<br />
+                <br />
+                Titles alignment<br />
+                gla_slide_right_middle - Right Middle<br />
+                gla_slide_right_top - Right Top<br />
+                gla_slide_right_bottom - Right Bottom<br />
+                gla_slide_left_middle - Left Middle<br />
+                gla_slide_left_top - Left Top<br />
+                gla_slide_left_bottom - Left Bottom<br />
+                gla_slide_center_middle - Center Middle<br />
+                gla_slide_center_top - Center Top<br />
+                gla_slide_center_bottom - Center Bottom<br />
+                <br />
+
+
+				<h3>Sections classes</h3>
+                <p>
+                    
+                    <pre class="brush: html">
+                    &lt;section class="gla_section gla_image_bck" data-color="#f2f2f2">
+                    &lt;section id="services" class="gla_section gla_section_sml_padding gla_image_bck gla_wht_txt gla_fixed" data-stellar-background-ratio="0.2" data-image="images/corporate2/shutterstock_327359807.jpg">
+                    </pre>
+
+                    gla_wht_txt - White Text<br />
+                    gla_section_sml_padding - Section Small Padding <br>
+                    gla_image_bck - Color or Image background <br>
+                    gla_fixed - Fixed Class for Parallax Effect br
+                    data-stellar-background-ratio="0.2" - Parallax Speed <br>
+                    data-image="images/corporate2/shutterstock_327359807.jpg" - Background Image <br>
+                    data-color="#f2f2f2" - Background Color <br><br>
+
+                    <pre class="brush: html">
+                    &lt;!-- Over -->
+                    &lt;div class="gla_over" data-color="#292929" data-opacity="0.9">&lt;/div>
+                    </pre>
+                    gla_over - Overlay<br />
+                    data-color="#292929" - overlay color<br />
+                    data-opacity="0.9" - overlay opacity<br />
+                </p>
+                
+			
+
+            <h3>Logo</h3>
+            <p>You can edit all texts in logo.</p>
+<pre class="brush: html">
+&lt;!-- Logo -->
+&lt;a href="/" class="gla_logo gla_logo_animation">Enhance&lt;/a>
+</pre>
+            <h3>Themify Icons</h3>
+            <p>Themify Icons Official Page - <a href="http://themify.me/themify-icons" target="_blank">http://themify.me/themify-icons</a><br>
+			You can choose from 320+ available icons : </p>
+
+
+            <p>HTML markup:</p>
+<pre class="brush: html">
+&lt;!-- Themify Icons -->
+&lt;i class="ti ti-time">&lt;/i>
+</pre>         
+				
+
+				        
+            </section>
+            
+            <section id="css">
+            	<h2>CSS Files & Structure</h2>
+                <hr>
+                <p>All of the specific stylings for the page are in style.css ("theme"/css/gla_style.css) file.</p>
+<pre class="brush:html">
+&lt;!-- Theme CSS -->
+&lt;link href="css/gla_style.css" rel="stylesheet">
+</pre>    
+
+			<p>The file is separated into sections using:</p>   
+<pre class="brush:html">
+01. Main Styles
+    01.1 White Text
+    01.2 Titles
+02. Bootstrap
+    02.1 Align Center
+    02.2 Tabs
+    02.3.Buttons
+    02.4 Labels
+    02.5 Alerts
+    02.6 Lightbox
+    02.7 Pagination
+    02.8 Progress Bars
+03. Sidebars
+    03.1 Content
+    03.2 Main Sidebar
+    03.3 Section
+04. Header
+    04.1 Logo Animation
+    04.2 Logo Img
+    04.3 Tranparency Menu
+    04.4 Full Width Submenu
+    04.5 Horizontal Menu
+    04.6 Language Menu
+    04.7 Mobile Menu
+    04.8 Header Animation
+    04.9 Passpartu
+05. Slider
+    05.1 Slider Text
+    05.2 Slider Aligns
+    05.3 Scroll Down
+06. Shortcodes
+    06.1 Icon Boxes
+    06.2 Animation Blocks
+        06.2.01 Iphone Animations
+        06.2.02 Macbook Animation
+    06.3 Browsers Images
+    06.4 Team
+    06.5 Sliders
+    06.6 News Block
+    06.7 Around Block
+    06.8 Price
+    06.9 Services Block
+07. Footer
+    07.1 To Top
+    07.2 Map
+08. Inside Pages
+    08.1 Portfolio
+    08.2 Pages Title
+    08.3 Breadcrumbs
+    08.4 Demos
+    08.5 One Page Nav
+    08.6 Blog
+    08.7 Widgets
+    08.8 Comments
+    08.9 Masonry
+    08.10 Projects
+    08.11 Shop
+    08.12 Tags
+    08.13 Related Products
+    08.14 Checkout
+    08.15 Cart
+    08.16 Single Products
+    08.17 Restaurant
+09. Mobile, Tablet
+    09.1 Mobile
+    09.2 Tablet
+
+</pre>            
+            	<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>   
+            </section>
+            
+            <section id="java">
+            	<h2>Javascript</h2>
+                <hr>
+                <p>All javascripts are placed in folder "theme"/js. In gla_script.js file we implement all functions calls.
+This theme uses following Javascript files:</p>
+				<ul>
+                	<li>Bootstrap v 3 framework (powerful front-end framework for faster and easier web development)</li>
+                    <li>jQuery v1.11.3 (A fast javascript library that Foodtruckifies how to traverse HTML documents, handle events, perform animations.)</li>
+                    <li>OWL Carousel - Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.<br />
+                        Documentation:<a href="http://owlgraphic.com/owlcarousel/#how-to" target="_blank">http://owlgraphic.com/owlcarousel/#how-to</a>
+                    </li>
+                    <li>magnific-popup - A lightweight customizable lightbox plugin for jQuery<br />
+                    Documentation:<a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">http://dimsemenov.com/plugins/magnific-popup/</a>
+                    </li>
+                    <li>prefixfree -prefix-free lets you use only unprefixed CSS properties everywhere. It works behind the scenes, adding the current browser’s prefix to any CSS code, only when it’s needed. </li>
+
+                    <li>JQuery CountDown - A jQuery plugin that sets a div or span to show a countdown to a given time.<br />
+                        Documentation:<a href="http://www.keith-wood.name/countdown.html" target="_blank">http://www.keith-wood.name/countdown.html</a>
+                    </li>
+                    <li>JQuery UI - jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.<br />
+                        Documentation:<a href="http://jqueryui.com/" target="_blank">http://jqueryui.com/</a>
+                    </li> 
+                    <li>Masonry - Masonry is a JavaScript grid layout library. It works by placing elements in optimal position based on available vertical space, sort of like a mason fitting stones in a wall. You’ve probably seen it in use all over the Internet.<br />
+                        Documentation:<a href="http://masonry.desandro.com/" target="_blank">http://masonry.desandro.com/</a>
+                    </li>
+                    <li>imagesloaded.pkgd.min.js - Images Loaded for Masonry.<br />
+                        Documentation:<a href="http://imagesloaded.desandro.com/" target="_blank">http://imagesloaded.desandro.com/</a>
+                    </li>
+                    <li>jquery.appear.js - jQuery plugin for tracking element's appearance in browser viewport<br />
+                        Documentation:<a href="https://github.com/morr/jquery.appear" target="_blank">https://github.com/morr/jquery.appear</a>
+                    </li>
+                    <li>jquery.countTo.js - A jQuery plugin that will count up (or down) to a target number at a specified speed.<br />
+                        Documentation:<a href="https://github.com/mhuggins/jquery-countTo" target="_blank">https://github.com/mhuggins/jquery-countTo</a>
+                    </li>
+                    <li>jquery.lettering.js - A jQuery plugin for radical web typography<br />
+                        Documentation:<a href="http://letteringjs.com/" target="_blank">http://letteringjs.com/</a>
+                    </li>
+                    <li>jquery.stellar.min.js - Parallax has never been easier<br />
+                        Documentation:<a href="http://markdalgleish.com/projects/stellar.js/" target="_blank">http://markdalgleish.com/projects/stellar.js/</a>
+                    </li>
+                    <li>modernizr.js - Modernizr tells you what HTML, CSS and JavaScript features the user’s browser has to offer.<br />
+                        Documentation:<a href="https://modernizr.com/" target="_blank">https://modernizr.com/</a>
+                    </li>
+                    <li>skrollr.min.js - Stand-alone parallax scrolling library for mobile (Android + iOS) and desktop. No jQuery. Just plain JavaScript (and some love).<br />
+                        Documentation:<a href="https://github.com/Prinzhorn/skrollr" target="_blank">https://github.com/Prinzhorn/skrollr</a>
+                    </li>
+                    <li>twitterfetcher.min.js - A jQuery plugin to fetch tweets from a person or it's list.<br />
+                        Documentation:<a href="https://github.com/jaysonsantos/jquery-twitter-fetcher" target="_blank">https://github.com/jaysonsantos/jquery-twitter-fetcher</a>
+                    </li>
+
+                </ul>
+
+				<h3>OWL Carousel</h3>
+                <p>Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.<br>
+				
+                </p>
+                <p>You don't need any special markup. All you need is to wrap your divs(owl works with any type element) inside the container element &lt;div class="owl-carousel">. Class "owl-carousel" is mandatory to apply proper styles that come from owl.carousel.css file.</p>
+<pre class="brush:html">
+&lt;div id="owl-example" class="owl-carousel">
+&lt;div> Your Content &lt;/div>
+&lt;div> Your Content &lt;/div>
+&lt;div> Your Content &lt;/div>
+&lt;div> Your Content &lt;/div>
+&lt;div> Your Content &lt;/div>
+&lt;div> Your Content &lt;/div>
+&lt;div> Your Content &lt;/div>
+...
+&lt;/div>
+</pre>    
+<p>Now call the Owl initializer function and your carousel is ready.</p>
+<pre class="brush:html">
+$("#owl-example").owlCarousel();
+</pre>       
+			
+
+            
+               
+
+               
+                
+
+                
+            </section>
+            
+            <section id="typo">
+            	<h2>Typography</h2>
+                <p>We use google font service to include fonts or font face sets. </p>
+                
+                <ul>
+                	<li><a href="https://www.google.com/fonts/specimen/Raleway" target="_blank">Raleway</a></li>
+                </ul>
+   
+             
+               
+            
+            </section>
+            
+           <section id="book">
+                <h2>Booking Form</h2>
+                <hr>
+                <p>Template comes with ready to use Booking Form.
+                </p>
+                <p>To configure form just edit your html gile and change e-mail to your own at these lines : </p>
+<pre class="brush:js">
+<form action="https://formspree.io/your@mail.com" method="POST">...</form>
+</pre>
+The Booking Form used http://formspree.io/ script and doesn't need PHP.<br />                
+The Booking Form doesn't work on 'localhost'. Works only on host.                
+            </section>
+            
+          <section id="sources">
+            	<h2>Sources & Credits</h2>
+                <hr>
+            <p>The following sources and files have been used to build up this theme</p>
+              <ul>
+               	  <li>Twitter Bootstrap - <a href="http://twitter.github.com/bootstrap/" target="_blank">http://twitter.github.com/bootstrap/</a></li>
+                  <li>jQuery - <a href="http://www.jquery.com">http://www.jquery.com</a></li>
+                  <li>OWL Carusel - <a href="http://owlgraphic.com/owlcarousel/#how-to" target="_blank">http://owlgraphic.com/owlcarousel/#how-to</a></li>
+                  <li>Font-Awesome - <a href="http://fontawesome.io/" target="_blank">http://fontawesome.io/</a></li>
+                  <li>Flaticon Icons - <a href="http://flaticon.com" target="_blank">http://flaticon.com</a></li>
+
+
+                  <li>magnific-popup - <a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">http://dimsemenov.com/plugins/magnific-popup/</a></li>
+                  <li>prefixfree - <a href="http://leaverou.github.io/prefixfree/" target="_blank">http://leaverou.github.io/prefixfree/</a></li>
+                  <li>JQuery UI - <a href="http://jqueryui.com/" target="_blank">http://jqueryui.com/</a></li>
+                  <li>JQuery CountDown - <a href="http://www.keith-wood.name/countdown.html" target="_blank">http://www.keith-wood.name/countdown.html</a></li>
+                  <li>Masonry - <a href="http://masonry.desandro.com/" target="_blank">http://masonry.desandro.com/</a></li>
+                  
+                  <li>jquery.mb.YTPlayer - <a href="https://github.com/pupunzi/jquery.mb.YTPlayer" target="_blank">https://github.com/pupunzi/jquery.mb.YTPlayer</a>
+                  </li> 
+                  <li>jquery.lettering.js - <a href="http://letteringjs.com/" target="_blank">http://letteringjs.com/</a>
+                    </li>
+                    <li>jquery.stellar.min.js - <a href="http://markdalgleish.com/projects/stellar.js/" target="_blank">http://markdalgleish.com/projects/stellar.js/</a>
+                    </li>
+                    <li>modernizr.js - <a href="https://modernizr.com/" target="_blank">https://modernizr.com/</a>
+                    </li>
+                    <li>skrollr.min.js - <a href="https://github.com/Prinzhorn/skrollr" target="_blank">https://github.com/Prinzhorn/skrollr</a>
+                    </li>
+                    <li>twitterfetcher.min.js - <a href="https://github.com/jaysonsantos/jquery-twitter-fetcher" target="_blank">https://github.com/jaysonsantos/jquery-twitter-fetcher</a>
+                    </li>
+
+                 
+                  	
+              </ul>
+
+              <p>Photos:<br>
+
+                    <a href="https://www.flickr.com/" target="_blank">Flickr.com</a><br/>
+                    <a href="http://graphicburger.com/" target="_blank">graphicburger.com</a><br/>
+                    <a href="http://dollarphotoclub.com/" target="_blank">dollarphotoclub.com</a><br />
+                    <a href="http://pixabay.com/" target="_blank">Pixabay</a><br />
+                    <a href="http://unsplash.com/" target="_blank">Unsplash</a><br />
+                    <a href="http://stocksnap.io/" target="_blank">stocksnap.io</a><br />
+                    <a href="http://shutterstock.com/" target="_blank">shutterstock.com</a><br />
+              </p>
+              <p>Once again, thank you so much for purchasing this theme. If you have any questions, feel free to email me via my user page <a href="https://themeforest.net/user/starkethemes" target="_blank">contact form</a>. </p>
+            </section>
+            
+        </div>
+    </div>
+</div>
+</div>
+	
+	<script src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="syntaxh/js/shCore.js"></script>
+	<script type="text/javascript" src="syntaxh/js/shBrushJScript.js"></script>
+    <script type="text/javascript" src="syntaxh/js/shBrushCss.js"></script>
+    <script type="text/javascript" src="syntaxh/js/shBrushXml.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</div>
+</body>
+</html>
