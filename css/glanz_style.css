@@ -2839,9 +2839,9 @@ ul.mega-menu {
 	width: 500px;
 	height: 183px;
 }
-	.gla_wht_txt .gla_slider_flower_iii {
-		filter: invert();
-	}
+	/*.gla_wht_txt .gla_slider_flower_iii {*/
+		/*filter: invert();*/
+	/*}*/
 
 .gla_slider_flower_c1 {
 	background: url(../images/flowers_slider/fl1_c1.png);
