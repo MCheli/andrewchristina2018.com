@@ -74,6 +74,12 @@
 /* 01. Main Styles                               */
 /*===============================================*/
 
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
 body {
   color: #333;
   font:300 14px/25px Open Sans, Arial,sans-serif;
