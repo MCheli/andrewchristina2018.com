@@ -1270,8 +1270,8 @@ label.error{
 	position: relative;
 }
 .gla_section .container {
-	padding-top: 132px;
-	padding-bottom: 128px;
+	padding-top: 40px;
+	padding-bottom: 35px;
 }
 .gla_lg_padding .container {
 	padding-top: 222px;
@@ -1433,7 +1433,6 @@ header {
 	}
 	.gla_parent > a:after {
 		display: inline-block;
-		content: "\e64b";
 		font-family: themify;
 		font-size: 12px;
 		margin-left: 10px;
